@@ -20,19 +20,19 @@ The Q-table is persisted using Pickle and reused during evaluation for determini
 
 ## Environment 🍃
 [Official Gymnasium Documentation](https://gymnasium.farama.org/introduction/train_agent/)
-[Further Readings](https://www.geeksforgeeks.org/machine-learning/q-learning-in-python/)
 
-- Enironment: FrozenLake-v1
+- Enironment: FrozenLake
 - Configuration: 8x8 grid Slippery Enabled 
 - Objective: Navigate from start to goal without falling through the lake
-- Dynamics: Stochastic movement (67% movement success rate)
+- Dynamics: Stochastic movement 
 
 ![Frozen Lake](frozen_lake.gif)
 
+[Further Readings](https://www.geeksforgeeks.org/machine-learning/q-learning-in-python/)
 ## Features 🧬
-- Tabular Q-Learning implementation from scratch
+- Tabular Q Learning implementation from scratch
 - ε-greedy exploration strategy with linear decay
-- Bellman equation-based Q-value updates
+- TD Bellman optimality equation Q-value updates
 - Episodic success tracking during training
 - Smoothing achieved through np.convolve for learning curve visualisation
 - Model persistence using Pickle
@@ -42,6 +42,3 @@ The Q-table is persisted using Pickle and reused during evaluation for determini
 ## Performance 🎯
 
 ![Performance Graph](performance_graph.png)
-
-- Approximately 62% agent level success during evaluation phase
-- Q Values were built from 20,000 episodes of training
