@@ -42,7 +42,7 @@ The Q-table is persisted using Pickle and reused during evaluation for determini
 
 Approximately 62% evaluation success after traininf for 20,000 episodes.
 
-## Download Steps
+## Download Steps 📋
 
 '''
 # Create virtual environment
