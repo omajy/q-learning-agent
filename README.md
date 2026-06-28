@@ -20,11 +20,14 @@ The Q-table is persisted using Pickle and reused during evaluation for determini
 
 ## Environment 🍃
 [Official Gymnasium Documentation](https://gymnasium.farama.org/introduction/train_agent/)
+[Further Readings](https://www.geeksforgeeks.org/machine-learning/q-learning-in-python/)
 
 - Enironment: FrozenLake-v1
 - Configuration: 8x8 grid Slippery Enabled 
 - Objective: Navigate from start to goal without falling through the lake
 - Dynamics: Stochastic movement (67% movement success rate)
+
+![Frozen Lake](frozen_lake.gif)
 
 ## Features 🧬
 - Tabular Q-Learning implementation from scratch
